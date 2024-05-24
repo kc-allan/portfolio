@@ -269,9 +269,9 @@ header .nav-links,
 .project-item .proj-image {
   width: 50%;
   min-height: 300px;
-  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   margin: 10px;
   border: 2px solid rgb(230, 230, 230);
   border-radius: 10px;
