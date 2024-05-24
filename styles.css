@@ -1,7 +1,4 @@
 @media screen and (min-width: 700px) {
-  body {
-    width: 100%;
-  }
   .ham-menu {
     visibility: hidden;
   }
@@ -27,6 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: rgb(237, 237, 233);
   background-image: url('./images/splash-screen.jpg');
   background-repeat: no-repeat;
@@ -121,7 +119,7 @@ header .nav-links,
   width: 30px;
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 25px;
   cursor: pointer;
 }
 .ham-menu span {
@@ -157,7 +155,10 @@ header .nav-links,
 #projects {
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   flex-wrap: wrap;
   padding: 10px;
   background-color: transparent;
@@ -234,6 +235,7 @@ header .nav-links,
   box-shadow: 2px 2px 6px #0000001a;
   background-color: white;
   padding: 5px;
+  margin: 5px;
   border-radius: 5px;
 }
 .quick-links a:hover {
