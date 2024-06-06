@@ -9,6 +9,9 @@
     visibility: hidden;
   }
 }
+.hidden {
+	display: none;
+}
 footer {
   width: 100%;
   display: flex;
